@@ -1,0 +1,14 @@
+Para este proyecto se ha hecho uso de:
+Python > 3
+CUDA
+Pysentimento
+GPT3.5
+Gensim
+Jupyter Notebooks
+Tableau
+
+Se requiere el siguiente hardware para una ejecución rápida:
+6 o más núcleos de CPU
+32GB de RAM
+2GB VRAM con capacidad de CUDA
+200MB de almacenamiento

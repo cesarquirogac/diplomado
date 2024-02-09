@@ -1,0 +1,16 @@
+Todos los datos normalizados y listos para ser usados se encuentran en el directorio ./Notebooks/data.
+
+Scripts para hacer scraping con Python se encuentran en ./Scripts
+
+Para unir los comentarios se encuentra en ./comments/comments_merge.ipynb, los datos para usar este notebook no se encuentra disponible al contener posible información sensible.
+
+Los archivos necesarios para Tableau están en ./visualización en conjunto con el archivo para ser cargado en la herramienta, todos los gráficos y dashboards están presentes en la herramienta con restricciones técnicas.
+
+Para ejecutar todo el proces y replicar los resultados se deben ejecutar los Python Notebooks, se ha hecho uso de Jupyter labs con lo indicado en herramientas.txt, también se dispone de los pips para instalar las dependencias.
+
+El notebook principal es "Proyecto Final.ipynb" en el directorio Notebooks.
+Este notebook ejecuta toda la limpieza y exploración de datos, partiendo desde la normalización hasta la detección de polaridad de sentimientos y tópicos.
+
+El análisis de datos es realizado mediante los dashboards de Tableau en conjunto con tablas creadas específicamente en el proyecto y que se encuentran disponible en Anexos.
+
+El análisis que no es posible realizar mediante Tableau se realiza mediante Python, el notebook "EDA_mineria.ipynb" ejecuta todas las tareas para obtener los resultados esperados.
