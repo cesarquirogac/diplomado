@@ -1339,211 +1339,6 @@
         </objects>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
-    <datasource caption='Sheet1 (historico)' inline='true' name='federated.051hw3j1et2shf177rbra0lz0tq3' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='historico' name='excel-direct.0v9xfgs1t15n3l10c60hs02byu35'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Work/Remote Storage/UMSS - Diplomado/Diplomado UMSS/Modulo 6/Notebooks/data/historico.xlsx' interpretationMode='0' password='' server='' validate='no' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0v9xfgs1t15n3l10c60hs02byu35' name='Sheet1' table='[Sheet1$]' type='table'>
-          <columns gridOrigin='A1:G28:no:A1:G28:0' header='yes' outcome='6'>
-            <column datatype='string' name='Tópico de publicación' ordinal='0' />
-            <column datatype='integer' name='Internet' ordinal='1' />
-            <column datatype='integer' name='Fallas y reclamos' ordinal='2' />
-            <column datatype='integer' name='Solicitud de información' ordinal='3' />
-            <column datatype='integer' name='Fútbol, deportes y televisión' ordinal='4' />
-            <column datatype='integer' name='Año' ordinal='5' />
-            <column datatype='string' name='Mes' ordinal='6' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0v9xfgs1t15n3l10c60hs02byu35' name='Sheet1' table='[Sheet1$]' type='table'>
-          <columns gridOrigin='A1:G28:no:A1:G28:0' header='yes' outcome='6'>
-            <column datatype='string' name='Tópico de publicación' ordinal='0' />
-            <column datatype='integer' name='Internet' ordinal='1' />
-            <column datatype='integer' name='Fallas y reclamos' ordinal='2' />
-            <column datatype='integer' name='Solicitud de información' ordinal='3' />
-            <column datatype='integer' name='Fútbol, deportes y televisión' ordinal='4' />
-            <column datatype='integer' name='Año' ordinal='5' />
-            <column datatype='string' name='Mes' ordinal='6' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='context'>0</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:G28:no:A1:G28:0&quot;</attribute>
-              <attribute datatype='boolean' name='header'>true</attribute>
-              <attribute datatype='integer' name='outcome'>6</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Tópico de publicación</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Tópico de publicación]</local-name>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias>Tópico de publicación</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RUS_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Internet</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Internet]</local-name>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias>Internet</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Fallas y reclamos</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Fallas y reclamos]</local-name>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias>Fallas y reclamos</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Solicitud de información</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Solicitud de información]</local-name>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias>Solicitud de información</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Fútbol, deportes y televisión</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Fútbol, deportes y televisión]</local-name>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias>Fútbol, deportes y televisión</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Año</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Año]</local-name>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias>Año</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Mes</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[Mes]</local-name>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias>Mes</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RUS_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column datatype='integer' name='[Fallas y reclamos]' role='measure' type='quantitative' />
-      <column datatype='integer' name='[Fútbol, deportes y televisión]' role='measure' type='quantitative' />
-      <column datatype='integer' name='[Internet]' role='measure' type='quantitative' />
-      <column datatype='integer' name='[Solicitud de información]' role='measure' type='quantitative' />
-      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]' role='measure' type='quantitative' />
-      <column-instance column='[Fallas y reclamos]' derivation='Sum' name='[sum:Fallas y reclamos:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Fútbol, deportes y televisión]' derivation='Sum' name='[sum:Fútbol, deportes y televisión:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Internet]' derivation='Sum' name='[sum:Internet:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[Solicitud de información]' derivation='Sum' name='[sum:Solicitud de información:qk]' pivot='key' type='quantitative' />
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <style>
-        <style-rule element='mark'>
-          <encoding attr='color' field='[:Measure Names]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.051hw3j1et2shf177rbra0lz0tq3].[sum:Fallas y reclamos:qk]&quot;</bucket>
-            </map>
-            <map to='#76b7b2'>
-              <bucket>&quot;[federated.051hw3j1et2shf177rbra0lz0tq3].[sum:Solicitud de información:qk]&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;[federated.051hw3j1et2shf177rbra0lz0tq3].[sum:Internet:qk]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.051hw3j1et2shf177rbra0lz0tq3].[sum:Fútbol, deportes y televisión:qk]&quot;</bucket>
-            </map>
-          </encoding>
-        </style-rule>
-      </style>
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='Sheet1' id='Sheet1_F660C973F7174D1A8192FBEBA034A2BE'>
-            <properties context=''>
-              <relation connection='excel-direct.0v9xfgs1t15n3l10c60hs02byu35' name='Sheet1' table='[Sheet1$]' type='table'>
-                <columns gridOrigin='A1:G28:no:A1:G28:0' header='yes' outcome='6'>
-                  <column datatype='string' name='Tópico de publicación' ordinal='0' />
-                  <column datatype='integer' name='Internet' ordinal='1' />
-                  <column datatype='integer' name='Fallas y reclamos' ordinal='2' />
-                  <column datatype='integer' name='Solicitud de información' ordinal='3' />
-                  <column datatype='integer' name='Fútbol, deportes y televisión' ordinal='4' />
-                  <column datatype='integer' name='Año' ordinal='5' />
-                  <column datatype='string' name='Mes' ordinal='6' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
     <datasource caption='Sheet1 (new_variables_comments)' inline='true' name='federated.1gmjkze19v6ys516n5ut315o38wt' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -2022,6 +1817,211 @@
                   <column datatype='string' name='topic' ordinal='17' />
                   <column datatype='string' name='Sentiment_Pysentimento' ordinal='18' />
                   <column datatype='string' name='Sentiment_GPT' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (historico)' inline='true' name='federated.051hw3j1et2shf177rbra0lz0tq3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='historico' name='excel-direct.0v9xfgs1t15n3l10c60hs02byu35'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Work/Remote Storage/UMSS - Diplomado/Diplomado UMSS/Modulo 6/Notebooks/data/historico.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0v9xfgs1t15n3l10c60hs02byu35' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:G28:no:A1:G28:0' header='yes' outcome='6'>
+            <column datatype='string' name='Tópico de publicación' ordinal='0' />
+            <column datatype='integer' name='Internet' ordinal='1' />
+            <column datatype='integer' name='Fallas y reclamos' ordinal='2' />
+            <column datatype='integer' name='Solicitud de información' ordinal='3' />
+            <column datatype='integer' name='Fútbol, deportes y televisión' ordinal='4' />
+            <column datatype='integer' name='Año' ordinal='5' />
+            <column datatype='string' name='Mes' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0v9xfgs1t15n3l10c60hs02byu35' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:G28:no:A1:G28:0' header='yes' outcome='6'>
+            <column datatype='string' name='Tópico de publicación' ordinal='0' />
+            <column datatype='integer' name='Internet' ordinal='1' />
+            <column datatype='integer' name='Fallas y reclamos' ordinal='2' />
+            <column datatype='integer' name='Solicitud de información' ordinal='3' />
+            <column datatype='integer' name='Fútbol, deportes y televisión' ordinal='4' />
+            <column datatype='integer' name='Año' ordinal='5' />
+            <column datatype='string' name='Mes' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G28:no:A1:G28:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tópico de publicación</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Tópico de publicación]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Tópico de publicación</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Internet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Internet]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Internet</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fallas y reclamos</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fallas y reclamos]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Fallas y reclamos</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Solicitud de información</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Solicitud de información]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Solicitud de información</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fútbol, deportes y televisión</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fútbol, deportes y televisión]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Fútbol, deportes y televisión</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Año</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Año]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Año</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Mes]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Mes</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Fallas y reclamos]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Fútbol, deportes y televisión]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Internet]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Solicitud de información]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_F660C973F7174D1A8192FBEBA034A2BE]' role='measure' type='quantitative' />
+      <column-instance column='[Fallas y reclamos]' derivation='Sum' name='[sum:Fallas y reclamos:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Fútbol, deportes y televisión]' derivation='Sum' name='[sum:Fútbol, deportes y televisión:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Internet]' derivation='Sum' name='[sum:Internet:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Solicitud de información]' derivation='Sum' name='[sum:Solicitud de información:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.051hw3j1et2shf177rbra0lz0tq3].[sum:Fallas y reclamos:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.051hw3j1et2shf177rbra0lz0tq3].[sum:Solicitud de información:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.051hw3j1et2shf177rbra0lz0tq3].[sum:Internet:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.051hw3j1et2shf177rbra0lz0tq3].[sum:Fútbol, deportes y televisión:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_F660C973F7174D1A8192FBEBA034A2BE'>
+            <properties context=''>
+              <relation connection='excel-direct.0v9xfgs1t15n3l10c60hs02byu35' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:G28:no:A1:G28:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Tópico de publicación' ordinal='0' />
+                  <column datatype='integer' name='Internet' ordinal='1' />
+                  <column datatype='integer' name='Fallas y reclamos' ordinal='2' />
+                  <column datatype='integer' name='Solicitud de información' ordinal='3' />
+                  <column datatype='integer' name='Fútbol, deportes y televisión' ordinal='4' />
+                  <column datatype='integer' name='Año' ordinal='5' />
+                  <column datatype='string' name='Mes' ordinal='6' />
                 </columns>
               </relation>
             </properties>
@@ -5670,7 +5670,7 @@
       </viewpoint>
       <simple-id uuid='{6D64F7D5-47C0-4AA0-8D0D-4A69A02E7FA7}' />
     </window>
-    <window class='worksheet' maximized='true' name='Tipo de publicación por interacción positiva'>
+    <window class='worksheet' name='Tipo de publicación por interacción positiva'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -6323,7 +6323,7 @@
       </cards>
       <simple-id uuid='{BE3475BC-7502-48A1-B763-BACB44DE7D6D}' />
     </window>
-    <window class='worksheet' name='Negatividad en el tiempo'>
+    <window class='worksheet' maximized='true' name='Negatividad en el tiempo'>
       <cards>
         <edge name='left'>
           <strip size='253'>
